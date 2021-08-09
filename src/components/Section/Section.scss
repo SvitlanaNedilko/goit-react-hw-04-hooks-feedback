@@ -1,0 +1,11 @@
+.Section {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  &_Title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+}
